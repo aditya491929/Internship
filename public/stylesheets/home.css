@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+#navbar{
+    color: turquoise;
+}
+
+#brand{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
