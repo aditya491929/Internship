@@ -3,7 +3,7 @@
 **Name: Aditya Malwade** 
 
 ## SCREENSHOTS
-Completely responsive website that refreshes every 60 sec
+Completely responsive website that refreshes every 60 sec \n
 DB USED: Postgres
 
 **WEBPAGE**
