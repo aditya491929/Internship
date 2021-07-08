@@ -23,6 +23,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs')
 
 app.get('/', async (req,res) => {
+    
+    client.query('DELETE FROM rates',(err,res1)=>{
+        if(err){
+            console.log(err);
+        }
+        else{
+            console.log(res1);
+        }
+    })
+
     await axios.get('https://api.wazirx.com/api/v2/tickers')
     .then(response =>{
         const result = response.data;
